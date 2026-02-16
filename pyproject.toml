@@ -1,0 +1,14 @@
+[project]
+name = "portfolio-project-sp26"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "geopandas>=1.1.2",
+    "polars>=1.38.1",
+    "pyarrow>=23.0.1",
+    "pyproj>=3.7.2",
+    "rtree>=1.4.1",
+    "shapely>=2.1.2",
+]
