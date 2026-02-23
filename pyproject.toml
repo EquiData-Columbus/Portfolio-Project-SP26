@@ -11,4 +11,8 @@ dependencies = [
     "pyproj>=3.7.2",
     "rtree>=1.4.1",
     "shapely>=2.1.2",
+    "matplotlib>=3.7",
+    "folium>=0.12",
+    "branca>=0.6",
+    "mapclassify>=2.5",
 ]
