@@ -56,9 +56,16 @@ def make_map(new_map, column, name, color):
 m = folium.Map(location=[37, -96], zoom_start=4, tiles="CartoDB positron")
 
 #Add Map Layers here
-make_map(m, "Total Applications for Financial Assistance Submitted at State Level", "TOTAL Medicaid + Chip Applications", "Blues")
+make_map(m, "Total Applications for Financial Assistance Submitted at State Level", "TOTAL Medicaid + Chip Applications", "Reds")
 make_map(m, "New Applications Submitted to Medicaid and CHIP Agencies", "NEW Medicaid + Chip Applications", "Reds")
+make_map(m, "Applications for Financial Assistance Submitted to the State Based Marketplace", "Applications to State Marketplace", "Reds")
+make_map(m, "Individuals Determined Eligible for Medicaid at Application", "Eligible Individuals", "Blues")
 
+make_map(m, "Total Medicaid and CHIP Determinations", "Total Medicaid and CHIP Determinations", "Blues")
+make_map(m, "Medicaid and CHIP Child Enrollment", "Medicaid and CHIP Child Enrollment", "Blues")
+make_map(m, "Total Medicaid and CHIP Enrollment", "Total Medicaid and CHIP Enrollment", "Blues")
+make_map(m, "Total Medicaid Enrollment", "Total Medicaid Enrollment", "Blues")
+make_map(m, "Total CHIP Enrollment", "Total CHIP Enrollment", "Blues")
 
 # Add layer control ONCE
 folium.LayerControl(collapsed=False).add_to(m)
